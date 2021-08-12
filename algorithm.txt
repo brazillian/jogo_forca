@@ -1,0 +1,27 @@
+
+
+---------------------------------------------- HANGMAN GAME: ALGORITHM ----------------------------------------------
+
+1 - Perguntar a palavra
+2 - Perguntar a dica
+3 - Criar o bonequinho da forca
+4 - Criar as linhas da palavra
+
+5 - Enquanto o bonequinho tiver alguma parte do corpo e as linhas não forem totalmente subtituidas ou palavra acertada:
+	6 - Perguntar:
+		[1] Digitar a palavra
+		[2] Digitar uma letra
+	7 - Se resposta == 1:
+		Perguntar a palavra:
+			Se palavra digitada for a correta:
+				Jogo termina!
+			Caso ao contrário:
+				Volta ao passo 3 porém criando o bonequinho com uma parte a menos do corpo
+	    Caso ao contrário resposta == 2:
+		Perguntar a letra:
+			Se a letra digitada haver na palavra:
+				Volta ao passo 4 substituindo todas as linhas que são correspondentes a letra por ela 
+			Caso ao contrário:
+				Volta ao passo 3 porém criando o bonequinho com uma parte a menos do corpo
+     Caso ao contrário:
+	Jogo termina em derrota!
