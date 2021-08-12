@@ -81,6 +81,9 @@ int main() {
             system("clear");
             while((play = getchar()) != '\n' && play != EOF);
             play = 1;
+	          for (int i = 0; i <  strlen(game.lines);  i++){
+	 	          game.lines[i] = '0';
+}
             ask_word_and_tip();
         }
 
@@ -184,9 +187,4 @@ void try_letter() {
         game.letter_wrong[game.parts_resting] = try_letter;
     }
 
-    if (strcmp(game.lines, game.inputed_word) == 0){
-        printf("Parabéns jogador 2 você ganhou!!!!\n");
-        sleep(3);
-        game.win = 1;
-    }
 }
