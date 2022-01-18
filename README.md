@@ -20,7 +20,7 @@ Persistência com certeza foi uma delas. Refatorei o código do jogo completamen
   
 ## Authors
 
-- [@brazillian](https://github.com/brazillian)
+- [@lluuiizz](https://github.com/lluuiizz)
 - [@luizguilhermegzg](https://github.com/luizguilhermegzg)
 
 
